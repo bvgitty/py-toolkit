@@ -5,7 +5,7 @@ from collections import Counter
 
 def word_count(text: str) -> int:
     """Return the number of words in text."""
-    return len(text.split())
+    return len(text.split()) + 1
 
 
 def char_count(text: str, include_spaces: bool = True) -> int:
