@@ -1,0 +1,6 @@
+# Default owner for everything
+*   
+                 @bvgitty
+
+# CI workflows need extra care
+/.github/workflows/ @bvgitty
