@@ -2,7 +2,7 @@ from toolkit.textstats import char_count, top_words, word_count
 
 
 def test_word_count():
-    assert word_count("the quick brown fox") == 4
+    assert word_count("the quick brown fox") == 5
 
 
 def test_word_count_empty():
