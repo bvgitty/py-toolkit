@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" # requirements*.txt
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "github-actions" # actions/checkout@v7 etc. in workflows
+    directory: "/"
+    schedule:
+      interval: "weekly"
